@@ -20,3 +20,6 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+https://www.zhihu.com/question/29811994
+git 不能提交空目录，只是追踪文件变动
