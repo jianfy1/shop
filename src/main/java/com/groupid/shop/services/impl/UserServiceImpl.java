@@ -5,6 +5,7 @@ import javax.annotation.Resource;
 import org.springframework.stereotype.Service;
 
 import com.groupid.shop.dao.UserDao;
+import com.groupid.shop.domain.User;
 import com.groupid.shop.services.UserService;
 
 /**
@@ -28,6 +29,12 @@ public class UserServiceImpl implements UserService {
 	public boolean register(String phoneNumber, String password) {
 		// TODO Auto-generated method stub
 		return false;
+	}
+
+	@Override
+	public User getUser(String userId) {
+		// TODO Auto-generated method stub
+		return userDao.getUser(userId);
 	}
 
 }

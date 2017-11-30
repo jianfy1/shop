@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.content-block-title {
+    margin: 0;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    border-bottom: 1px solid #e7e7e7;
+    font-size: 0.75rem;
+    background-color: white;
+}
+
+.list-block.media-list {
+    margin: 0;
+}
+
+.item-content .item-media img {
+    border-radius: 50%;
+}
+
+.list-block.list {
+    margin: 0;
+}
+
+.item-title a {
+    color: black;
+}

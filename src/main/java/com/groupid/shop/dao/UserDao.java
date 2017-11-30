@@ -6,5 +6,5 @@ import com.groupid.shop.domain.User;
 
 @Repository
 public interface UserDao {
-	public User getUser(String userName);
+	public User getUser(String userId);
 }

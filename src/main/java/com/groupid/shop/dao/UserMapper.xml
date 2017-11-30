@@ -7,8 +7,8 @@
 
 	<select id="getUser" parameterType="string"
 		resultType="com.groupid.shop.domain.User">
-		SELECT username AS userName, password
-		FROM user WHERE
-		username = #{userName}
+		SELECT user_info_id AS userId, password, phone_number, email, sex, birthday, home_address
+		FROM user_info WHERE
+		user_info_id = #{userId} AND is_deleted = 0
 	</select>
 </mapper>

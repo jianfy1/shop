@@ -34,6 +34,13 @@
 			<version>${springframework-version}</version>
 		</dependency>
 
+		<!-- thymeleaf-spring5 -->
+		<dependency>
+			<groupId>org.thymeleaf</groupId>
+			<artifactId>thymeleaf-spring5</artifactId>
+			<version>3.0.8.RELEASE</version>
+		</dependency>
+
 		<!-- java ee -->
 		<!-- javax.servlet-api -->
 		<dependency>
